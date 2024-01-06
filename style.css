@@ -125,13 +125,13 @@ a {
     text-align: justify;
 }
 
-.center-block {
+/* .center-block {
     margin: 0 auto;
-}
+} */
 
-.center-text {
+/* .center-text {
     text-align: center;
-}
+} */
 
 img {
     max-width    : 100%;
@@ -148,17 +148,17 @@ img {
     border-radius   : 8px;
 }
 
-
+/* 
 .service {
     margin-bottom: 3rem;
-}
+} */
 
 .service img {
     max-width: 90%;
     height   : auto;
 }
 
-.service h3 {
+/* .service h3 {
     color     : #0000ff;
     font-size : 18pt;
     margin-top: 1rem;
@@ -168,17 +168,17 @@ img {
 .service ul {
     color    : #000000;
     font-size: 14pt;
-}
+} */
 
 .service ul {
     list-style: none;
     padding   : 0;
 }
 
-.service li {
+/* .service li {
     text-align: center;
     margin-top: 0.5rem;
-}
+} */
 
 .contact {
     color    : #800000;
@@ -188,14 +188,14 @@ img {
 .fixed-button {
     position        : fixed;
     bottom          : 0%;
-    left: 2%;
+    left            : 2%;
     width           : 30%;
     background-color: #25D366;
     padding         : 5px;
     text-align      : center;
-    margin:0 auto;
-    border-radius: 10px;
-    z-index: 44;
+    margin          : 0 auto;
+    border-radius   : 10px;
+    z-index         : 44;
 }
 
 a {
@@ -209,3 +209,96 @@ a {
     vertical-align: middle;
     margin-right  : 5px;
 }
+
+.my-5 {
+    margin-top   : 5rem;
+    margin-bottom: 5rem;
+}
+
+h2.text-center {
+    text-align: center;
+}
+
+.service {
+    text-align   : center;
+    margin-bottom: 2rem;
+}
+
+.service img {
+    max-width: 100%;
+    height   : auto;
+}
+
+.service h3 {
+    margin-top: 1rem;
+}
+
+.service p {
+    font-size: 14pt;
+}
+
+.service .contact {
+    color: #800000;
+}
+
+.sow-sub-headline {
+    color    : #000000;
+    font-size: 14pt;
+}
+
+@media (max-width: 768px) {
+    .service {
+        margin-bottom: 3rem;
+    }
+}
+    body {
+        font-family: 'Arial', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #000;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin   : auto;
+    }
+
+    .list-group-item-danger {
+        background-color: #dc3545;
+        color           : #fff;
+    }
+
+    .list-group-item-dark {
+        background-color: #343a40;
+        color           : #fff;
+    }
+
+    .list-group-item-primary {
+        background-color: #007bff;
+        color           : #fff;
+    }
+
+    .list-group {
+        padding: 0;
+    }
+
+    .bg-danger {
+        background-color: #dc3545;
+        color           : #fff;
+        padding         : 20px;
+        margin-top      : 20px;
+    }
+
+    .bg-danger p {
+        margin-bottom: 15px;
+    }
+
+    .bg-danger hr {
+        border-color: #fff;
+    }
